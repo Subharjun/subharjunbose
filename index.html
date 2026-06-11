@@ -21,8 +21,7 @@
   #track{height:1300vh}
   #scene{position:fixed;inset:0;z-index:0;display:block}
 
-  .letterbox{position:fixed;left:0;right:0;height:6.5vh;background:var(--bar);z-index:30;pointer-events:none}
-  .letterbox.top{top:0}.letterbox.bottom{bottom:0}
+  /* letterbox bars removed */
   #grain{position:fixed;inset:0;z-index:20;pointer-events:none;opacity:.07;
     background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
     animation:grain .9s steps(4) infinite}
@@ -32,21 +31,21 @@
 
   .hud{position:fixed;z-index:31;font-family:"JetBrains Mono",monospace;font-size:11px;
     letter-spacing:.14em;color:var(--dim);pointer-events:none;text-transform:uppercase}
-  #timecode{left:32px;bottom:calc(6.5vh + 18px);color:var(--teal)}
-  #slate{right:32px;bottom:calc(6.5vh + 18px)}
-  #rec{left:32px;top:calc(6.5vh + 18px);display:flex;align-items:center;gap:8px;color:var(--bone)}
+  #timecode{left:32px;bottom:18px;color:var(--teal)}
+  #slate{right:32px;bottom:18px}
+  #rec{left:32px;top:18px;display:flex;align-items:center;gap:8px;color:var(--bone)}
   #rec::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--magenta);animation:blink 1.4s steps(2) infinite}
   @keyframes blink{50%{opacity:.15}}
-  #progressbar{position:fixed;left:0;bottom:6.5vh;height:2px;width:0%;
+  #progressbar{position:fixed;left:0;bottom:0;height:2px;width:0%;
     background:linear-gradient(90deg,var(--teal),var(--sodium));z-index:32;pointer-events:none}
   .tick{position:fixed;width:18px;height:18px;z-index:31;pointer-events:none;
     border-color:rgba(238,243,242,.35);border-style:solid;border-width:0}
-  .tick.tl{top:calc(6.5vh + 14px);left:24px;border-top-width:1px;border-left-width:1px}
-  .tick.tr{top:calc(6.5vh + 14px);right:24px;border-top-width:1px;border-right-width:1px}
-  .tick.bl{bottom:calc(6.5vh + 14px);left:24px;border-bottom-width:1px;border-left-width:1px}
-  .tick.br{bottom:calc(6.5vh + 14px);right:24px;border-bottom-width:1px;border-right-width:1px}
+  .tick.tl{top:14px;left:24px;border-top-width:1px;border-left-width:1px}
+  .tick.tr{top:14px;right:24px;border-top-width:1px;border-right-width:1px}
+  .tick.bl{bottom:14px;left:24px;border-bottom-width:1px;border-left-width:1px}
+  .tick.br{bottom:14px;right:24px;border-bottom-width:1px;border-right-width:1px}
 
-  #indexbtn{position:fixed;right:32px;top:calc(6.5vh + 12px);z-index:42;
+  #indexbtn{position:fixed;right:32px;top:12px;z-index:42;
     font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.3em;text-transform:uppercase;
     background:none;border:1px solid var(--line);color:var(--bone);padding:8px 16px;cursor:pointer;
     transition:border-color .25s,color .25s}
@@ -64,7 +63,7 @@
     letter-spacing:.3em;margin-right:18px;vertical-align:middle}
 
   .screen{position:fixed;inset:0;z-index:10;display:flex;align-items:center;
-    padding:9vh max(6vw,48px);pointer-events:none;opacity:0;visibility:hidden}
+    padding:clamp(56px,8vh,80px) max(4vw,24px);pointer-events:none;opacity:0;visibility:hidden;overflow-y:auto}
   .screen .inner{max-width:1180px;margin:0 auto;width:100%;will-change:transform,opacity}
   .screen.right .inner{text-align:right}
   .screen.center .inner{text-align:center}
@@ -84,7 +83,7 @@
   .screen.center .lede{margin-left:auto;margin-right:auto}
   .lede b{color:var(--bone);font-weight:500}
 
-  .scrollhint{position:absolute;bottom:calc(6.5vh + 46px);left:50%;transform:translateX(-50%);
+  .scrollhint{position:absolute;bottom:46px;left:50%;transform:translateX(-50%);
     font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.3em;color:var(--dim);
     text-transform:uppercase;display:flex;flex-direction:column;align-items:center;gap:12px}
   .scrollhint::after{content:"";width:1px;height:42px;
@@ -186,21 +185,48 @@
   .credits a:hover,.credits a:focus-visible{color:var(--teal);border-color:var(--teal);outline:none}
   .credits a:focus-visible,.cardlinks a:focus-visible{outline:2px solid var(--sodium);outline-offset:4px}
 
+  /* ── 860px tablet ──────────────────────── */
   @media (max-width:860px){
-    .uipath-grid{grid-template-columns:1fr;gap:24px}
-    .uipath-img{max-height:220px}
+    h1{font-size:clamp(32px,7vw,72px)}
+    h2{font-size:clamp(22px,5vw,48px)}
+    .uipath-grid{grid-template-columns:1fr;gap:20px}
+    .uipath-img{max-height:260px;object-fit:contain}
+    .uipath-visual{order:1}.uipath-content{order:2}
     .laurelgrid{grid-template-columns:1fr}
     .articles{grid-template-columns:1fr;gap:12px}
     .article h3{font-size:14px;margin:10px 0 12px}
+    .speakers-row{flex-direction:column;gap:12px}
+    .speaker{min-width:0}
+    .stills{grid-template-columns:repeat(2,1fr)}
   }
-  @media (max-width:760px){
+  /* ── 600px mobile ──────────────────────── */
+  @media (max-width:600px){
     #slate{display:none}
-    .screen{padding:9vh 22px}
+    #timecode{font-size:9px;left:14px}
+    #rec{left:14px;top:14px;font-size:9px}
+    #indexbtn{right:14px;top:10px;padding:6px 12px;font-size:10px}
+    .screen{padding:52px 16px 60px;align-items:flex-start}
+    .screen .inner{width:100%}
     .bigstat{display:none}
     .facts{flex-direction:column}
-    .fact{border-right:none;border-bottom:1px solid var(--line)}
-    .shot{max-height:160px}
+    .fact{border-right:none;border-bottom:1px solid var(--line);padding:14px 18px}
+    .shot,.uipath-img{max-height:200px}
+    .eyebrow{font-size:10px;margin-bottom:14px}
+    .card{padding:18px 16px}
+    .card p{font-size:13px}
+    .chip{font-size:9px;padding:4px 10px}
+    .stack{gap:6px}
+    .speakers-row{flex-direction:column;gap:10px}
+    .speaker{padding:10px 14px}
+    .speaker-name{font-size:12px}
+    .speaker-role{font-size:9px}
+    .articles{grid-template-columns:1fr;gap:10px}
+    .stills{grid-template-columns:1fr;gap:10px}
+    .laurelgrid{grid-template-columns:1fr}
+    .still img{max-height:140px}
+    .tick{display:none}
   }
+  /* ── reduced-motion ────────────────────── */
   @media (prefers-reduced-motion:reduce){
     #grain,.scrollhint::after,.reel{animation:none}
     #rec::before{animation:none}
@@ -212,8 +238,7 @@
 <canvas id="scene"></canvas>
 <div id="vignette"></div>
 <div id="grain"></div>
-<div class="letterbox top"></div>
-<div class="letterbox bottom"></div>
+
 <div id="progressbar"></div>
 
 <div class="hud" id="rec">rec</div>
