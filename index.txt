@@ -1,0 +1,539 @@
+Subharjun Bose - AI & Automation Engineer
+Plain-text mirror of every string on the site. Regenerate with regen-index-txt.py after editing index.html.
+
+alt = Subharjun Bose
+
+Subharjun Bose
+
+AI & Automation Engineer
+
+Open to opportunities Show Contacts
+
+Email subharjun.bose2805@gmail.com
+
+Phone +91 92312 67484
+
+Education
+
+B.Tech CSE · CGPA 9.06
+
+Location
+
+Kolkata, West Bengal, India
+
+About
+
+Resume
+
+Portfolio
+
+Talks
+
+Contact
+
+# about
+
+About me
+
+I'm a Computer Science graduate who builds agentic AI systems and ships them as working automation. I design multi-agent LLM pipelines with deterministic fallbacks and hard guardrails, RAG systems, and full-stack AI products in Python, LangChain/LangGraph and FastAPI/Next.js — and deliver them on UiPath (Maestro, Orchestrator, coded C#).
+
+Most of my recent work is built end-to-end with Claude Code driving the uip CLI, turning plain English into automations that actually run. That means agents constrained to a fixed action set, monotonic guardrails that let a model escalate risk but never soften a hard compliance block, and a human gate wherever the stakes justify one.
+
+I speak at UiPath Community Kolkata on UiPath × Claude, and write about agentic automation on Medium — published in Stackademic and Active Minds Hub.
+
+What I'm doing
+
+AI & LLM Engineering
+
+Multi-agent pipelines with constrained action sets, deterministic fallbacks and monotonic guardrails.
+
+Agentic Automation
+
+End-to-end agentic RPA on UiPath Maestro and Orchestrator — real jobs, human-in-the-loop gates.
+
+Full-Stack Development
+
+Production interfaces and APIs with React, Next.js, FastAPI and Node — real-time where it counts.
+
+AI-Assisted Development
+
+Claude Code driving the uip CLI — plain English into automation that actually runs.
+
+Achievements & Recognition
+
+JIS Puraskar 2024 — 1st Runner-Up
+
+Inter-College Debate · JIS Group
+
+Secured 1st Runner-Up at the Inter-College Debate Competition organised by JIS Group Educational Initiatives — debating India's vision of becoming a developed nation by 2047, against teams from colleges across the JIS Group.
+
+Published Author
+
+ACMESGA 2K26
+
+Author of “Village Gentle: A Multilingual AI Platform for Rural Development”, published at ACMESGA 2K26 — covering ML-driven crop-disease prediction and multilingual advisory delivery for rural users.
+
+Community Speaker
+
+UiPath Community Kolkata
+
+Speaker at UiPath Community Kolkata on UiPath × Claude — two virtual sessions: The Coding Agent Debugs (Jul 2026, co-presented with Kunal Hore, Capgemini) and Coding Agent In Action (Jun 2026) — live, unscripted builds turning plain English into running automation.
+
+Certified GenAI Developer
+
+Webel-Fujisoft-Vara
+
+Certified Generative AI Developer through the Webel-Fujisoft-Vara programme, covering applied generative model development and deployment.
+
+JIS Puraskar 2024
+
+Inter-College Debate · JIS Group
+
+Tech Stack
+
+Python
+
+C#
+
+LangChain
+
+LangGraph
+
+RAG
+
+UiPath Maestro
+
+Orchestrator
+
+Action Center
+
+Claude Code
+
+uip CLI
+
+FastAPI
+
+Next.js
+
+React
+
+TypeScript
+
+Docker
+
+AWS
+
+ChromaDB
+
+Qdrant
+
+# resume
+
+Resume
+
+Education
+
+Guru Nanak Institute of Technology 2022 — 2026
+
+B.Tech, Computer Science and Engineering · CGPA 9.06
+
+Experience
+
+Speaker & Community Contributor UiPath Community Kolkata · Dec 2025 — Present · Virtual
+
+“UiPath × Claude: The Coding Agent Debugs” (Jul 2026) — co-presented with Kunal Hore, Capgemini. Debugged a live UiPath workflow purely through natural-language prompts: exposed a bug silently corrupting results and rebuilt the logic into a working fix.
+
+“UiPath × Claude: Coding Agent In Action” (Jun 2026) — live, unscripted build from plain English: Orchestrator folders and queues, data upload, Studio Web authoring, publish, deploy and run, all driven by Claude.
+
+Framed UiPath for Coding Agents for RPA developers, QA engineers, BAs and students, and shipped working demo documentation so attendees could rebuild it. Built AI agents at the UiPath Agentic Gurukul workshop and explored AI-driven API test automation at the BrowserStack QA Meetup.
+
+AI Data Quality Evaluator (Contract) Handshake · Freelance · Jul 2026 — Present · Remote
+
+Evaluate AI-generated responses for factual accuracy and reasoning quality, verifying claims against reliable sources and feeding structured evaluation back into model quality.
+
+Technical Writer Medium · Self-employed · May 2026 — Present · Remote
+
+Publish technical essays on agentic AI, UiPath × Claude workflows and RPA; accepted into two curated publications — Stackademic and Active Minds Hub.
+
+React.js Developer Intern Codesoft · Oct 2024 — Nov 2024 · Remote
+
+Built responsive web interfaces with React hooks and state management; shipped reusable MERN-stack features.
+
+Python Django Trainee Ardent Computech Pvt Ltd · Feb 2024 · Kolkata, India
+
+Python and Django backend training; built an Employee Management System with CRUD operations and database integration.
+
+Technical Skills
+
+AI & Agentic Engineering
+
+LangChain
+
+LangGraph
+
+RAG
+
+Multi-agent orchestration
+
+Constrained action sets
+
+Output schemas
+
+Deterministic fallbacks
+
+Monotonic guardrails
+
+Human-in-the-loop gates
+
+Ollama
+
+Hugging Face
+
+UiPath LLM Gateway
+
+UiPath Platform
+
+Studio Web
+
+Orchestrator
+
+Queues & Assets
+
+Buckets
+
+Maestro Flows
+
+Case Management
+
+Action Center
+
+Integration Service
+
+Object Repository
+
+Coded C# workflows
+
+XAML
+
+.uipx packaging
+
+Serverless robots
+
+AI-Assisted Development
+
+Claude Code
+
+uip CLI
+
+Natural language → automation
+
+AI-assisted debugging
+
+Refactoring
+
+API & QA automation
+
+CI/CD
+
+Languages
+
+Python
+
+PyTorch
+
+scikit-learn
+
+Pandas
+
+NumPy
+
+C#
+
+JavaScript (ES6+)
+
+TypeScript
+
+Java
+
+SQL
+
+Web & Full-Stack
+
+React.js
+
+Next.js
+
+FastAPI
+
+Node.js
+
+Express.js
+
+REST APIs
+
+WebSockets
+
+Three.js
+
+OAuth2
+
+Stripe
+
+Gmail & Drive connectors
+
+GDELT
+
+GST registry
+
+Data & DevOps
+
+MongoDB Atlas
+
+SQL Server
+
+ChromaDB
+
+Qdrant
+
+AWS
+
+Docker
+
+Git
+
+Linux
+
+Render
+
+# portfolio
+
+Portfolio
+
+All
+
+AI & LLM
+
+Automation
+
+Full-Stack
+
+Mobile
+
+Select category
+
+All
+
+AI & LLM
+
+Automation
+
+Full-Stack
+
+Mobile
+
+alt = Reimbursement Case
+
+Reimbursement Case — Agentic Expense Adjudication
+
+Automation · UiPath AgentHack 2026
+
+A claim pipeline built as a Maestro Case — intake → receipt IDP → classification → policy → human review → Stripe payout → notification — where every reasoning step is a real Orchestrator job, not a mock. A 4-agent Consensus Engine cross-examines each claim and records dissent, each agent with a deterministic fallback; monotonic guardrails let the LLM escalate risk but never soften a hard compliance block.
+
+UiPath Maestro
+
+Case Management
+
+Action Center
+
+Stripe
+
+FastAPI
+
+React
+
+Claude Code Live demo
+
+alt = AI Test Automation Assistant
+
+AI Test Automation Assistant — Requirements to Executable Tests
+
+Automation
+
+A Claude agent turns written acceptance criteria into executable test cases; a QA lead approves in Action Center, a robot drives a real browser, screenshots every step, and the flow emails an HTML report. Constraining the agent to a four-verb action set and a captured Object Repository catalog means it cannot emit a step the robot can't run. Output: 34 test cases, 151 steps.
+
+UiPath Maestro Flow
+
+Claude Sonnet
+
+LLM Gateway
+
+XAML RPA
+
+Object Repository
+
+Action Center
+
+alt = Autonomous Vendor Risk Analyzer
+
+Autonomous Vendor Risk Analyzer — Maestro Flow
+
+Automation
+
+Automates vendor due diligence — GSTIN mod-36 checksum, live GST registry verification, website trust signals, GDELT adverse-media screening — into a deterministic 0–100 risk score and tier. An inline Claude agent writes the risk narrative grounded strictly in collected evidence; low risk auto-approves, higher tiers route to a human gate, and every external check degrades gracefully.
+
+UiPath Maestro Flow
+
+Inline Claude agent
+
+GST registry
+
+GDELT
+
+Quick Form HITL
+
+alt = Intelligent Email SLA Monitor
+
+Intelligent Email SLA Monitor — Coded C# RPA
+
+Automation
+
+A business-hours SLA clock over a shared mailbox — a P1 arriving 17:55 Friday has burned five minutes by Monday 09:00 — with independent response and resolution clocks that escalate separately. Explainable P1–P4 scoring keeps every contributing signal on the case; anti-alert-storm rules cap escalations per run and ship disarmed. A 43-assertion self-check validates the engines with zero cloud calls.
+
+Coded C#
+
+XAML orchestration
+
+Integration Service
+
+Gmail
+
+Drive
+
+Cross-platform
+
+alt = Dev-Agent
+
+Dev-Agent — Local-First AI Coding Agent
+
+AI & LLM
+
+A fully offline AI agent for codebase understanding, using RAG over a local vector store with no external API calls. Traces code flow and analyses architecture across multi-file repositories to speed up developer onboarding.
+
+Python
+
+LangChain
+
+ChromaDB
+
+Ollama
+
+Typer
+
+alt = SafeDrive AI
+
+SafeDrive AI — Real-Time Driver Wellness Monitor
+
+AI & LLM
+
+Real-time drowsiness detection running at 30 fps on Groq vision, with stress analysis streamed to the client over WebSockets.
+
+FastAPI
+
+Next.js
+
+Groq Vision
+
+Hugging Face
+
+WebSockets
+
+alt = Village Gentle
+
+Village Gentle — Multilingual AI for Rural Development
+
+Full-Stack
+
+Real-time crop-health analysis, fertilizer guidance and weather forecasting, with 85% accuracy on ML crop-disease prediction. Published at ACMESGA 2K26.
+
+Python
+
+Streamlit
+
+Machine Learning
+
+Google APIs
+
+alt = ArjunPath
+
+ArjunPath — Offline Scripture Reader
+
+Mobile
+
+An offline scripture-reading Android app with bookmarking and fully local access to the Bhagavad Gita, Hanuman Chalisa and the Upanishads.
+
+React Native
+
+Expo
+
+SQLite
+
+Android
+
+# talks
+
+Talks
+
+Speaking UiPath Community Kolkata · Jul 2026
+
+UiPath × Claude: The Coding Agent Debugs
+
+Co-presented with Kunal Hore (Capgemini). Debugged a live UiPath workflow purely through natural-language prompts — exposing a bug that was silently corrupting results, then rebuilding the logic into a working fix in front of the audience. View the session
+
+Speaking UiPath Community Kolkata · Jun 2026
+
+UiPath × Claude: Coding Agent In Action
+
+A live, unscripted build from plain English: Orchestrator folders and queues, data upload, Studio Web authoring, publish, deploy and run — all driven by Claude. Framed UiPath for Coding Agents for RPA developers, QA engineers, BAs and students, with working demo documentation so attendees could rebuild it. View the session
+
+Writing Medium · Stackademic & Active Minds Hub
+
+Technical Essays on Agentic Automation
+
+Ongoing technical writing on agentic AI, UiPath × Claude workflows and RPA — accepted into two curated Medium publications, Stackademic and Active Minds Hub.
+
+Publication ACMESGA 2K26
+
+Village Gentle: A Multilingual AI Platform for Rural Development
+
+Peer-reviewed paper on delivering ML-driven agricultural advisory to rural users in their own language — covering crop-disease prediction at 85% accuracy, fertilizer guidance and weather integration. View the platform
+
+Workshop UiPath Agentic Gurukul
+
+Building AI Automation Agents
+
+Hands-on work building agentic automation on the UiPath platform — designing agents that reason over a task and dispatch real jobs rather than following fixed scripts.
+
+Meetup BrowserStack QA
+
+AI-Driven API Test Automation
+
+Explored how LLM-assisted tooling changes API test authoring and maintenance, and where generated test suites still need a human in the loop.
+
+# contact
+
+Contact
+
+alt = Map showing Kolkata, West Bengal, India
+
+Kolkata, West Bengal © OpenStreetMap contributors
+
+Get in touch
+
+Open to roles and collaborations in AI engineering and intelligent automation. Drop a message and I'll get back to you.
+
+Full name
+Email address
+
+Your message
+
+Send Message
