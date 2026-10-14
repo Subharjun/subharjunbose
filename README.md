@@ -14,15 +14,15 @@ JavaScript. No build step, no dependencies — open `index.html` and it runs.
 | Page | What's on it |
 | --- | --- |
 | About | Summary, focus areas, achievements, tech stack |
-| Resume | Education, five roles, six technical-skill groups |
-| Portfolio | Eight projects, filterable by discipline |
+| Resume | Education, six roles, six technical-skill groups |
+| Portfolio | Nine projects, filterable by discipline |
 | Talks | Two UiPath Community sessions, technical writing, paper, workshop, meetup |
 | Contact | Map and a working contact form |
 
 ## Running it locally
 
 ```bash
-git clone https://github.com/Subharjun/<repo-name>.git
+git clone https://github.com/Subharjun/subharjunbose.git
 cd <repo-name>
 python3 -m http.server 8000
 ```

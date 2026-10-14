@@ -99,6 +99,10 @@ LangGraph
 
 RAG
 
+Microsoft Power Platform
+
+Dataverse
+
 UiPath Maestro
 
 Orchestrator
@@ -136,6 +140,12 @@ Guru Nanak Institute of Technology 2022 — 2026
 B.Tech, Computer Science and Engineering · CGPA 9.06
 
 Experience
+
+AI Automation Engineer Gigacore Energy Pvt Ltd · Remote · Present
+
+Architected DealOS, an autonomous multi-agent commodity trade desk in C#.NET (Dataverse plug-in) with OpenAI/Gemini tool loops, anti-circumvention masking, and 28+ Power Automate flows deployed as code.
+
+Engineered automated KYB & sanctions screening against official OFAC SDN, UN, and UK lists via token-weighted Jaro-Winkler fuzzy matching, integrating GLEIF and Companies House APIs.
 
 Speaker & Community Contributor UiPath Community Kolkata · Dec 2025 — Present · Virtual
 
@@ -189,7 +199,15 @@ Hugging Face
 
 UiPath LLM Gateway
 
-UiPath Platform
+Automation & RPA Platforms
+
+Microsoft Power Platform
+
+Dataverse
+
+Power Automate
+
+Custom Connectors
 
 Studio Web
 
@@ -328,6 +346,30 @@ Automation
 Full-Stack
 
 Mobile
+
+alt = DealOS
+
+DealOS — Autonomous B2B Commodity Trade Desk
+
+Automation · C# & Power Platform
+
+An autonomous multi-agent commodity trade desk in C#.NET (Dataverse plug-in) with OpenAI/Gemini tool loops, anti-circumvention masking, and 28+ Power Automate flows deployed as code. Manages back-to-back broker desks, anonymous RFQs, seller queueing, deterministic margin spread calculations, automated KYB/sanctions screening (OFAC, UN, UK lists via token-weighted Jaro-Winkler), and one-word email approval loops.
+
+C# (.NET)
+
+Microsoft Power Platform
+
+Dataverse
+
+Power Automate
+
+OpenAI Responses API
+
+Gemini
+
+Gmail API
+
+GLEIF API
 
 alt = Reimbursement Case
 
