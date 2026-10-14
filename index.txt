@@ -141,7 +141,7 @@ B.Tech, Computer Science and Engineering · CGPA 9.06
 
 Experience
 
-AI Automation Engineer Gigacore Energy Pvt Ltd · Remote · Present
+AI Automation Engineer Gigacore Energy Pvt Ltd · Aug 2026 — Oct 2026 · Remote
 
 Architected DealOS, an autonomous multi-agent commodity trade desk in C#.NET (Dataverse plug-in) with OpenAI/Gemini tool loops, anti-circumvention masking, and 28+ Power Automate flows deployed as code.
 
